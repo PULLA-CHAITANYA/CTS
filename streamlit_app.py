@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # ✅ FastAPI Endpoint
-API_URL = "http://localhost:8000/query"
+API_URL = "http://127.0.0.1:8000/query"
 
 # ✅ Streamlit UI
 st.title("🩺 AI Healthcare Assistant (RAG)")
